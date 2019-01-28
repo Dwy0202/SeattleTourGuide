@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="app_name">SeattleTourGuide</string>
+
+    <!-- Places -->
+    <string name="spaceneedle">Space Needle</string>
+    <string name="spaceneedle_address">400 Broad St, Seattle, WA 98109</string>
+    <string name="spaceneedle_info">Built for the 1962 World\'s Fair</string>
+
+    <string name="pikemarket">Pike Market</string>
+    <string name="pikemarket_address">85 Pike St #500, Seattle, WA</string>
+    <string name="pikemarket_info">The famous pike market where they have fresh flowers, fruit, and fish</string>
+
+    <string name="gaswork">Gas Works Park</string>
+    <string name="gaswork_address">2101 N Northlake Way, Seattle, WA 98103</string>
+    <string name="gaswork_info">Park built on a former coal gas plant. Overlooks lake union and downtown Seattle</string>
+
+
+    <!-- Eating locations -->
+    <string name="unbien">Un Bien</string>
+    <string name="unbien_address">7302.5 15th Ave NW, Seattle, WA 98117</string>
+    <string name="unbien_info">Caribbean Sandwiches</string>
+
+    <string name="walrus">Walrus and the Carpenter </string>
+    <string name="walrus_address">4743 Ballard Ave NW, Seattle, WA 98107 </string>
+    <string name="walrus_info">Oyster bar in Ballard  </string>
+
+    <string name="seattle_fish_guy">Seattle Fish Guys </string>
+    <string name="seattle_fish_guy_address">411 23rd Ave S, Seattle, WA 98144 </string>
+    <string name="seattle_fish_guy_info">Premium seafood market and fresh poke </string>
+
+    <!-- Play -->
+    <string name="deception">Deception Pass State Park</string>
+    <string name="deception_address">Deception Pass, WA</string>
+    <string name="deception_info">Washington\'s most visited state park</string>
+
+    <string name="mtrainier">Mount Rainier </string>
+    <string name="mtrainier_address">Mount Rainier, WA</string>
+    <string name="mtrainier_info">Highest mountain of the Cascades. It still remains an active volcano.</string>
+
+    <string name="sanjuan">San Juan Islands</string>
+    <string name="sanjuan_address">San Juan Island, WA</string>
+    <string name="sanjuan_info">Group of islands that is a popular vacation spot.</string>
+
+    <!-- Tour -->
+    <string name="boeing">Future of Flight</string>
+    <string name="boeing_address">8415 Paine Field Blvd, Mukilteo, WA 98275</string>
+    <string name="boeing_info">Opportunity to view airplane assembly line before flight</string>
+
+    <string name="seattleunderground">Seattle Underground</string>
+    <string name="seattleunderground_address">614 1st Ave, Seattle, WA 98104</string>
+    <string name="seattleunderground_info">Humorous buried city</string>
+
+
+    <string name="ridetheduck">Ride The Ducks</string>
+    <string name="ridetheduck_address">516 Broad St, Seattle, WA 98109</string>
+    <string name="ridetheduck_info">Seattle guided tour on a amphibious vehicle</string>
+
+    <string name="Places">Places</string>
+    <string name="Eats">Eat</string>
+    <string name="Play">Play</string>
+    <string name="Tour">Tour</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
