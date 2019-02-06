@@ -33,10 +33,10 @@ public class TourFragment extends Fragment {
 
         final ArrayList<LocationInformation> location = new ArrayList<LocationInformation>();
 
-
-        location.add(new LocationInformation(getString(R.string.boeing), getString(R.string.boeing_address), getString(R.string.boeing_info), R.drawable.boeing));
-        location.add(new LocationInformation(getString(R.string.seattleunderground), getString(R.string.seattleunderground_address), getString(R.string.seattleunderground_info), R.drawable.seattleunderground));
-        location.add(new LocationInformation(getString(R.string.ridetheduck), getString(R.string.ridetheduck_address), getString(R.string.ridetheduck_info), R.drawable.ridetheduck));
+//
+//        location.add(new LocationInformation(getString(R.string.boeing), getString(R.string.boeing_address), getString(R.string.boeing_info), R.drawable.boeing));
+//        location.add(new LocationInformation(getString(R.string.seattleunderground), getString(R.string.seattleunderground_address), getString(R.string.seattleunderground_info), R.drawable.seattleunderground));
+//        location.add(new LocationInformation(getString(R.string.ridetheduck), getString(R.string.ridetheduck_address), getString(R.string.ridetheduck_info), R.drawable.ridetheduck));
 
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), location);

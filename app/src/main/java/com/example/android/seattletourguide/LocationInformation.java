@@ -16,12 +16,20 @@ public class LocationInformation {
 
     private static final int NO_IMAGE = -1;
 
+    private String mWebAddress;
 
-    public LocationInformation(String attractionName, String address, String attractionInfo, Integer imageResourceId) {
+
+    public LocationInformation(String attractionName, String address, String attractionInfo, Integer imageResourceId, String webAddress) {
         mAttractionName = attractionName;
         mAddress = address;
         mAttractionInfo = attractionInfo;
         mImageResourceId = imageResourceId;
+        mWebAddress = webAddress;
+
+    }
+
+    public String getmWebAddress() {
+        return mWebAddress;
     }
 
 

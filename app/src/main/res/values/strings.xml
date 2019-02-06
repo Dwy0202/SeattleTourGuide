@@ -8,28 +8,34 @@
     <string name="spaceneedle">Space Needle</string>
     <string name="spaceneedle_address">400 Broad St, Seattle, WA 98109</string>
     <string name="spaceneedle_info">Built for the 1962 World\'s Fair</string>
+    <string name="spaceneedle_web">https://www.spaceneedle.com/</string>
 
     <string name="pikemarket">Pike Market</string>
     <string name="pikemarket_address">85 Pike St #500, Seattle, WA</string>
     <string name="pikemarket_info">The famous pike market where they have fresh flowers, fruit, and fish</string>
+    <string name="pikemarket_web">http://www.pikeplacemarket.org</string>
 
     <string name="gaswork">Gas Works Park</string>
     <string name="gaswork_address">2101 N Northlake Way, Seattle, WA 98103</string>
     <string name="gaswork_info">Park built on a former coal gas plant. Overlooks lake union and downtown Seattle</string>
+    <string name="gaswork_web">http://www.seattle.gov/parks/find/parks/gas-works-park</string>
 
 
     <!-- Eating locations -->
     <string name="unbien">Un Bien</string>
     <string name="unbien_address">7302.5 15th Ave NW, Seattle, WA 98117</string>
     <string name="unbien_info">Caribbean Sandwiches</string>
+    <string name="unbien_web">http://unbienseattle.com/</string>
 
     <string name="walrus">Walrus and the Carpenter </string>
     <string name="walrus_address">4743 Ballard Ave NW, Seattle, WA 98107 </string>
     <string name="walrus_info">Oyster bar in Ballard  </string>
+    <string name="walrus_web">https://www.thewalrusbar.com/</string>
 
     <string name="seattle_fish_guy">Seattle Fish Guys </string>
     <string name="seattle_fish_guy_address">411 23rd Ave S, Seattle, WA 98144 </string>
     <string name="seattle_fish_guy_info">Premium seafood market and fresh poke </string>
+    <string name="seattle_fish_guy_web">https://www.seattlefishguys.com/</string>
 
     <!-- Play -->
     <string name="deception">Deception Pass State Park</string>

@@ -34,9 +34,9 @@ public class PlayFragment extends Fragment {
         final ArrayList<LocationInformation> location = new ArrayList<LocationInformation>();
 
 
-        location.add(new LocationInformation(getString(R.string.deception), getString(R.string.deception_address), getString(R.string.deception_info), R.drawable.deception));
-        location.add(new LocationInformation(getString(R.string.mtrainier), getString(R.string.mtrainier_address), getString(R.string.mtrainier_info), R.drawable.mountrainier));
-        location.add(new LocationInformation(getString(R.string.sanjuan), getString(R.string.sanjuan_address), getString(R.string.sanjuan_info), R.drawable.sanjuan));
+//        location.add(new LocationInformation(getString(R.string.deception), getString(R.string.deception_address), getString(R.string.deception_info), R.drawable.deception));
+//        location.add(new LocationInformation(getString(R.string.mtrainier), getString(R.string.mtrainier_address), getString(R.string.mtrainier_info), R.drawable.mountrainier));
+//        location.add(new LocationInformation(getString(R.string.sanjuan), getString(R.string.sanjuan_address), getString(R.string.sanjuan_info), R.drawable.sanjuan));
 
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), location);

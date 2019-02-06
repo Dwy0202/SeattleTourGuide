@@ -1,11 +1,15 @@
 package com.example.android.seattletourguide;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -35,15 +39,12 @@ public class EatFragment extends Fragment {
 
         final ArrayList<LocationInformation> location = new ArrayList<LocationInformation>();
 
-
-        location.add(new LocationInformation(getString(R.string.unbien), getString(R.string.unbien_address),getString(R.string.unbien_info),R.drawable.unbien));
-        location.add(new LocationInformation(getString(R.string.walrus), getString(R.string.walrus_address), getString(R.string.walrus_info),R.drawable.walrus));
-        location.add(new LocationInformation(getString(R.string.seattle_fish_guy), getString(R.string.seattle_fish_guy_address), getString(R.string.seattle_fish_guy_info),R.drawable.seattlefish));
-
+        location.add(new LocationInformation(getString(R.string.unbien), getString(R.string.unbien_address), getString(R.string.unbien_info), R.drawable.unbien, getString(R.string.unbien_web)));
+        location.add(new LocationInformation(getString(R.string.walrus), getString(R.string.walrus_address), getString(R.string.walrus_info), R.drawable.walrus, getString(R.string.walrus_web)));
+        location.add(new LocationInformation(getString(R.string.seattle_fish_guy), getString(R.string.seattle_fish_guy_address), getString(R.string.seattle_fish_guy_info), R.drawable.seattlefish, getString(R.string.seattle_fish_guy_web)));
 
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), location);
-
 
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
@@ -51,6 +52,35 @@ public class EatFragment extends Fragment {
 
         listView.setAdapter(adapter);
 
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                LocationInformation locationInformation = (LocationInformation) parent.getItemAtPosition(position);
+
+                String attractionName = locationInformation.getmAttractionName();
+
+                final String webUrl = locationInformation.getmWebAddress();
+
+
+                Snackbar snackbar = Snackbar.make(view, attractionName, Snackbar.LENGTH_LONG)
+                        .setAction("Visit Site", new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+
+                                Intent internet = new Intent(Intent.ACTION_VIEW);
+
+                                internet.setData(Uri.parse(webUrl));
+
+                                startActivity(internet);
+                            }
+                        });
+
+                snackbar.show();
+
+            }
+        });
 
 
         return rootView;
